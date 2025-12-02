@@ -1,6 +1,5 @@
 import jsPDF from 'jspdf';
 import { Layer, PosterConfig, PaperSize, PaperOrientation, Unit } from '../types';
-import { PAPER_SIZES } from '../constants';
 
 export const generateTiledPDF = async (
   config: PosterConfig,
@@ -188,5 +187,5 @@ export const generateTiledPDF = async (
     }
   }
 
-  doc.save('docuslice-poster.pdf');
+  doc.save('tarp-papel-poster.pdf');
 };

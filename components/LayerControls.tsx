@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layer } from '../types';
-import { Trash2, Type, Image as ImageIcon, Move, RotateCcw, Box } from 'lucide-react';
+import { Trash2, Type, Image as ImageIcon, Box } from 'lucide-react';
 import { COLORS, FONTS } from '../constants';
 
 interface LayerControlsProps {

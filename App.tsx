@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { 
-  Layer, PaperSize, PosterConfig, SlicingMode, PaperOrientation, Unit 
+  Layer, PosterConfig, SlicingMode, PaperOrientation, Unit 
 } from './types';
 import { PAPER_SIZES } from './constants';
 import { CanvasWorkspace } from './components/CanvasWorkspace';
@@ -8,7 +8,7 @@ import { LayerControls } from './components/LayerControls';
 import { generateTiledPDF } from './utils/pdfGenerator';
 import { 
   Download, Plus, Settings, Image as ImageIcon, Type, 
-  Minus, Scissors, Grid, Layers, Layout, Ruler, HelpCircle, Info, X, BookOpen
+  Minus, Scissors, Grid, Layers, Layout, Ruler, Info, X, BookOpen
 } from 'lucide-react';
 
 const DEFAULT_PAPER_ID = 'letter';
