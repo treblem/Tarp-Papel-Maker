@@ -1,0 +1,5 @@
+{
+  "name": "Tarp Papel Maker",
+  "description": "Create large posters, banners, and tarpapels by slicing images into multiple printable pages. Supports standard paper sizes, custom grids, and multi-layer composition.",
+  "requestFramePermissions": []
+}
